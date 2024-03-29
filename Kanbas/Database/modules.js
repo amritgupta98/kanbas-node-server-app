@@ -84,80 +84,18 @@ export default [
     name: "Fundamentals of Aerodynamics",
     description: "Basic aerodynamic concepts and fluid dynamics principles.",
     course: "RS102",
-    lessons: [
-      {
-        _id: "L401",
-        name: "Aerodynamic Forces",
-        description: "Understanding aerodynamic forces and their effects.",
-        module: "M201",
-      },
-      {
-        _id: "L402",
-        name: "Fluid Dynamics",
-        description: "Basic principles of fluid dynamics and flow behavior.",
-        module: "M201",
-      },
-      {
-        _id: "L403",
-        name: "Aerodynamic Drag",
-        description: "Understanding aerodynamic drag and its effects.",
-        module: "M201",
-      },
-    ],
   },
   {
     _id: "M202",
     name: "Subsonic and Supersonic Flow",
     description: "Understanding subsonic and supersonic aerodynamic behaviors.",
     course: "RS102",
-    lessons: [
-      {
-        _id: "L501",
-        name: "Subsonic Flow",
-        description: "Understanding subsonic aerodynamic behavior.",
-        module: "M202",
-      },
-      {
-        _id: "L502",
-        name: "Supersonic Flow",
-        description: "Understanding supersonic aerodynamic behavior.",
-        module: "M202",
-      },
-      {
-        _id: "L503",
-        name: "Hypersonic Flow",
-        description: "Understanding hypersonic aerodynamic behavior.",
-        module: "M202",
-      },
-    ],
   },
   {
     _id: "M203",
     name: "Aerodynamic Heating",
     description: "Study of aerodynamic heating and thermal protection systems.",
     course: "RS102",
-    lessons: [
-      {
-        _id: "L601",
-        name: "Aerodynamic Heating",
-        description: "Understanding aerodynamic heating and its effects.",
-        module: "M203",
-      },
-      {
-        _id: "L602",
-        name: "Thermal Protection Systems",
-        description:
-          "Overview of different types of thermal protection systems.",
-        module: "M203",
-      },
-      {
-        _id: "L603",
-        name: "Thermal Analysis",
-        description:
-          "Analyzing thermal protection systems for specific applications.",
-        module: "M203",
-      },
-    ],
   },
   {
     _id: "M301",
@@ -165,81 +103,17 @@ export default [
     description:
       "Fundamentals of designing spacecraft structures and materials selection.",
     course: "RS103",
-    lessons: [
-      {
-        _id: "L701",
-        name: "Structural Design",
-        description: "Understanding spacecraft structural design principles.",
-        module: "M301",
-      },
-      {
-        _id: "L702",
-        name: "Materials Selection",
-        description: "Overview of different types of spacecraft materials.",
-        module: "M301",
-      },
-      {
-        _id: "L703",
-        name: "Structural Analysis",
-        description:
-          "Analyzing spacecraft structures for specific applications.",
-        module: "M301",
-      },
-    ],
   },
   {
     _id: "M302",
     name: "Orbital Mechanics",
     description: "Understanding orbital dynamics and mission planning.",
     course: "RS103",
-    lessons: [
-      {
-        _id: "L801",
-        name: "Orbital Dynamics",
-        description:
-          "Basic principles of orbital dynamics and celestial mechanics.",
-        module: "M302",
-      },
-      {
-        _id: "L802",
-        name: "Mission Planning",
-        description:
-          "Overview of spacecraft mission planning and trajectory optimization.",
-        module: "M302",
-      },
-      {
-        _id: "L803",
-        name: "Spacecraft Navigation",
-        description: "Understanding spacecraft navigation and control systems.",
-        module: "M302",
-      },
-    ],
   },
   {
     _id: "M303",
     name: "Spacecraft Systems Engineering",
     description: "Overview of spacecraft systems and subsystems engineering.",
     course: "RS103",
-    lessons: [
-      {
-        _id: "L901",
-        name: "Spacecraft Subsystems",
-        description: "Overview of different types of spacecraft subsystems.",
-        module: "M303",
-      },
-      {
-        _id: "L902",
-        name: "Systems Engineering",
-        description: "Understanding spacecraft systems engineering principles.",
-        module: "M303",
-      },
-      {
-        _id: "L903",
-        name: "Spacecraft Integration",
-        description:
-          "Integrating spacecraft systems and subsystems for specific applications.",
-        module: "M303",
-      },
-    ],
   },
 ];

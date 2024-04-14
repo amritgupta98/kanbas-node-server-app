@@ -42,20 +42,19 @@ import * as dao from "./dao.js";
 
 export default function CourseRoutes(app) {
   const deleteCourse = async (req, res) => {
-    console.log(req.params.courseId);
-    const status = await dao.deleteCourse(req.params.courseId);
+    const status = await dao.deleteCourse(req.params.id);
     res.json(status);
   };
 
   const updateCourse = async (req, res) => {
-    const { courseId } = req.params;
+    const courseId = req.params.id;
     const status = await dao.updateCourse(courseId, req.body);
     const currentCourse = await dao.findCourseById(courseId);
     res.json(status);
   };
 
   const getCourseById = async (req, res) => {
-    const course = await dao.findCourseById(req.params.courseId);
+    const course = await dao.findCourseById(req.params.id);
     res.json(course);
   };
 
@@ -66,7 +65,6 @@ export default function CourseRoutes(app) {
 
   const findAllCourses = async (req, res) => {
     const courses = await dao.findAllCourses();
-    // console.log(courses);
     res.json(courses);
   };
 

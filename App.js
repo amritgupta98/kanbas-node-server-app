@@ -20,7 +20,7 @@ app.use(
     // origin: process.env.FRONTEND_URL,
     origin: [
       process.env.FRONTEND_URL,
-      "https://a5--friendly-strudel-2dc5c2.netlify.app",
+      "https://a5--amazing-frangollo-6764dc.netlify.app/",
     ],
   })
 );

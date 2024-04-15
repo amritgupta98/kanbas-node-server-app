@@ -19,8 +19,8 @@ app.use(
     credentials: true,
     // origin: process.env.FRONTEND_URL,
     origin: [
-      process.env.FRONTEND_URL,
       "https://a5--amazing-frangollo-6764dc.netlify.app/",
+      process.env.FRONTEND_URL,
     ],
   })
 );

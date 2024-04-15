@@ -17,7 +17,11 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: process.env.FRONTEND_URL,
+    // origin: process.env.FRONTEND_URL,
+    origin: [
+      process.env.FRONTEND_URL,
+      "https://a5--friendly-strudel-2dc5c2.netlify.app",
+    ],
   })
 );
 const sessionOptions = {
